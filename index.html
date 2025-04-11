@@ -128,7 +128,7 @@
           </ul>
         </div>
         <div class="webn-right">
-          <a href="#" class="openPopup"><img src="images/webinar-videocall.svg" alt="" class="fit-img" /></a>
+          <a href="#" class="openPopup"><img src="images/webinar-videocall.png" alt="" class="fit-img" /></a>
           <div class="share-webnar for-phone">
             <p>40 mins watch</p>
             <div class="share-icon">
@@ -716,8 +716,8 @@ document.addEventListener("DOMContentLoaded", populateHiddenFields);
           error: function (xhr, status, error) {
             const messageDiv = $("#responseMessage");
             messageDiv
-              .text(
-                "Thanks for subscribing to Core42! Stay tuned for updates."
+              .html(
+                "Thanks for subscribing to Core42!  Stay tuned for updates."
               )
               .show();
             // Custom success action (e.g., clear form, track conversion)

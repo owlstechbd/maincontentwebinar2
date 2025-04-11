@@ -153,7 +153,7 @@ a:hover {
 }
 
 .webn-left {
-    width: 40%;
+    width: 45%;
 }
 .mar-top-20{
     margin-top: 20px;
@@ -195,6 +195,9 @@ a:hover {
 .webn-right {
     text-align: center;
     width: 40%;
+}
+.webn-right img{
+    margin-top: 120px;
 }
 .webn-right button{
     margin-top: 30px;
