@@ -156,7 +156,7 @@ function onYouTubeIframeAPIReady() {
   player = new YT.Player("youtubePlayer", {
     height: "390", // Adjust as needed
     width: "640", // Adjust as needed
-    videoId: "90s_m3A0pDs", // Replace with your YouTube Video ID
+    videoId: "a9_ckLk4VvA", // Replace with your YouTube Video ID
     playerVars: {
       autoplay: 0, // Autoplay disabled initially
       controls: 1,
@@ -308,7 +308,7 @@ function updateShareLinks() {
   const twitterLink = document.querySelector(".twitter-share");
 
   // URL for the content you want to share
-  const shareUrl = "https://youtu.be/90s_m3A0pDs";
+  const shareUrl = "https://www.youtube.com/watch?v=a9_ckLk4VvA";
 
   if (isMobile()) {
     // For mobile devices, use deep links for apps
@@ -344,7 +344,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let twitterBtn = document.querySelector(".twitter-share");
 
   // The YouTube video URL you want to share
-  let videoUrl = "https://www.youtube.com/watch?v=90s_m3A0pDs";
+  let videoUrl = "https://www.youtube.com/watch?v=a9_ckLk4VvA";
   let shareText = encodeURIComponent("Check out this amazing video!");
 
   // Update LinkedIn and Twitter share links
