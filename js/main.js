@@ -308,7 +308,7 @@ function updateShareLinks() {
   const twitterLink = document.querySelector(".twitter-share");
 
   // URL for the content you want to share
-  const shareUrl = "https://www.youtube.com/watch?v=a9_ckLk4VvA";
+  const shareUrl = "https://youtu.be/a9_ckLk4VvA?si=w-wwjMzFSqDFNDYr";
 
   if (isMobile()) {
     // For mobile devices, use deep links for apps
